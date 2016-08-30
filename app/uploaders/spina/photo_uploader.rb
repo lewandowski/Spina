@@ -2,7 +2,7 @@
 module Spina
   class PhotoUploader < Spina::DefaultStoreUploader
     include CarrierWave::MiniMagick
-    include CarrierWave::Video
+    # include CarrierWave::Video
 
     version :image do
       process resize_to_fit: [800, 800], if: :too_large?

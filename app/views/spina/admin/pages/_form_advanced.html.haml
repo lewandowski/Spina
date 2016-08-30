@@ -7,11 +7,11 @@
       .horizontal-form-content
         = f.check_box :draft, data: {switch: true}
     .horizontal-form-group{style: ('display: none')}
-       .horizontal-form-label
-         = Spina::Page.human_attribute_name :skip_to_first_child
-         %small= Spina::Page.human_attribute_name :skip_to_first_child_description
-       .horizontal-form-content
-         = f.check_box :skip_to_first_child, data: {switch: true}
+      .horizontal-form-label
+        = Spina::Page.human_attribute_name :skip_to_first_child
+        %small= Spina::Page.human_attribute_name :skip_to_first_child_description
+      .horizontal-form-content
+        = f.check_box :skip_to_first_child, data: {switch: true}
     .horizontal-form-group
       .horizontal-form-label
         = Spina::Page.human_attribute_name :link_url

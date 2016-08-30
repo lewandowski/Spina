@@ -16,9 +16,9 @@ module Spina
       new_file.size > 120 * 1000
     end
 
-    # def extension_white_list
-    #   %w(jpg jpeg gif png)
-    # end
+    def extension_white_list
+      %w(jpg jpeg gif png)
+    end
 
   end
 end

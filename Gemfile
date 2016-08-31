@@ -17,4 +17,6 @@ group :development, :test do
   gem 'codeclimate-test-reporter', require: nil
   gem 'figaro'
   gem 'appraisal'
+  gem 'carrierwave-video'
+  gem 'carrierwave-video-thumbnailer'
 end
